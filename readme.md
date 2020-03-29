@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/Lohn/lumen-api-starter.svg?branch=master)](https://travis-ci.org/lohn/lumen-api-starter)
 
+This starter kit was wonderfully made by [Max](https://github.com/mstaack) (Thanks, Max!). But he froze the repo, so I forked it to keep it updated. Any problems, please fill a ticket or make a PR.
+
 # Notes
 - Comes with make & route command for all your needs
 - Uses jwt token alternative **paseto**. Read [Paseto](https://github.com/paragonie/paseto)
