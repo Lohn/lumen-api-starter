@@ -1,6 +1,6 @@
 # Lumen 6.3 API Starter with Paseto    
 
-[![Build Status](https://travis-ci.org/mstaack/lumen-api-starter.svg?branch=master)](https://travis-ci.org/mstaack/lumen-api-starter)
+[![Build Status](https://travis-ci.org/Lohn/lumen-api-starter.svg?branch=master)](https://travis-ci.org/lohn/lumen-api-starter)
 
 # Notes
 - Comes with make & route command for all your needs
