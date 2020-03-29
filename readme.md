@@ -1,4 +1,4 @@
-# Lumen 5.8 API Starter with Paseto    
+# Lumen 6.3 API Starter with Paseto    
 
 [![Build Status](https://travis-ci.org/mstaack/lumen-api-starter.svg?branch=master)](https://travis-ci.org/mstaack/lumen-api-starter)
 
@@ -30,7 +30,7 @@
 
 # Routes
 ```
-➜  lumen-api-starter git:(update-5.8) ✗ ./artisan route:list
+➜  lumen-api-starter git:(update-6.3) ✗ ./artisan route:list
 +------+--------------------------------+-----------------------+-------------------------------------+-----------------+--------------------------+
 | Verb | Path                           | NamedRoute            | Controller                          | Action          | Middleware               |
 +------+--------------------------------+-----------------------+-------------------------------------+-----------------+--------------------------+
