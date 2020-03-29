@@ -43,10 +43,8 @@ class RegisterRequest extends RequestAbstract
      *
      * @return array
      */
-    public function messages()
+    public function messages(): array
     {
-        return [
-            //
-        ];
+        return [];
     }
 }
