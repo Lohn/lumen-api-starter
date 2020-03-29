@@ -3,6 +3,7 @@
 namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
+use Illuminate\Support\Str;
 use ParagonIE\Paseto\Keys\SymmetricKey;
 
 class CreateAuthenticationKeyCommand extends Command
@@ -55,11 +56,11 @@ class CreateAuthenticationKeyCommand extends Command
             $oldContent = file_get_contents($path);
             $search = 'PASETO_AUTH_KEY=' . env('PASETO_AUTH_KEY');
 
-            if (!str_contains($oldContent, $search)) {
+            if (!Str::contains($oldContent, $search)) {
                 $search = 'PASETO_AUTH_KEY=';
             }
 
-            $newContent = str_replace($search, 'PASETO_AUTH_KEY=' . $key, $oldContent);
+            $newContent = Str::replaceFirst($search, 'PASETO_AUTH_KEY=' . $key, $oldContent);
 
             return file_put_contents($path, $newContent);
         }
