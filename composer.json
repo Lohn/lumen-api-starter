@@ -31,7 +31,7 @@
     "barryvdh/laravel-ide-helper": "^2.6",
     "nunomaduro/collision": "^3.0",
     "codedungeon/phpunit-result-printer": "^0.27",
-    "laravel/homestead": "^10.7"
+    "laravel/homestead": "^11.1"
   },
   "autoload": {
     "psr-4": {
