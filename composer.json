@@ -17,7 +17,7 @@
     "vlucas/phpdotenv": "^3.6",
     "flipbox/lumen-generator": "6.*",
     "paragonie/paseto": "^1.0",
-    "itsgoingd/clockwork": "^4.0",
+    "itsgoingd/clockwork": "^5.0",
     "pearl/lumen-request-validate": "^1.4",
     "illuminate/mail": "^6.0",
     "spatie/laravel-permission": "^3.11",
