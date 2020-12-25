@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0e547f4bd9d34759fa3ccc990b6477ee",
+    "content-hash": "7d4886a89a4978a4ce9e4d4dc9874f74",
     "packages": [
         {
             "name": "beyondcode/laravel-dump-server",
@@ -4395,20 +4395,20 @@
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.15.0",
+            "version": "v1.20.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
-                "reference": "4719fa9c18b0464d399f1a63bf624b42b6fa8d14"
+                "reference": "f4ba089a5b6366e453971d3aad5fe8e897b37f41"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/4719fa9c18b0464d399f1a63bf624b42b6fa8d14",
-                "reference": "4719fa9c18b0464d399f1a63bf624b42b6fa8d14",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/f4ba089a5b6366e453971d3aad5fe8e897b37f41",
+                "reference": "f4ba089a5b6366e453971d3aad5fe8e897b37f41",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.3"
+                "php": ">=7.1"
             },
             "suggest": {
                 "ext-ctype": "For best performance"
@@ -4416,7 +4416,11 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.15-dev"
+                    "dev-main": "1.20-dev"
+                },
+                "thanks": {
+                    "name": "symfony/polyfill",
+                    "url": "https://github.com/symfony/polyfill"
                 }
             },
             "autoload": {
@@ -4449,7 +4453,24 @@
                 "polyfill",
                 "portable"
             ],
-            "time": "2020-02-27T09:26:54+00:00"
+            "support": {
+                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.20.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-10-23T14:02:19+00:00"
         },
         {
             "name": "symfony/polyfill-iconv",
@@ -5198,20 +5219,20 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v4.4.6",
+            "version": "v4.4.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "43d7a46b1f80b4fd2ecfac4a9a4cc1f22d029fbb"
+                "reference": "bbce94f14d73732340740366fcbe63363663a403"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/43d7a46b1f80b4fd2ecfac4a9a4cc1f22d029fbb",
-                "reference": "43d7a46b1f80b4fd2ecfac4a9a4cc1f22d029fbb",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/bbce94f14d73732340740366fcbe63363663a403",
+                "reference": "bbce94f14d73732340740366fcbe63363663a403",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1.3",
+                "php": ">=7.1.3",
                 "symfony/polyfill-ctype": "~1.8"
             },
             "conflict": {
@@ -5224,11 +5245,6 @@
                 "symfony/console": "For validating YAML files using the lint command"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "4.4-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "Symfony\\Component\\Yaml\\": ""
@@ -5253,7 +5269,24 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2020-03-16T08:56:54+00:00"
+            "support": {
+                "source": "https://github.com/symfony/yaml/tree/v4.4.18"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-12-08T16:59:59+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
@@ -5522,6 +5555,10 @@
                 "anybar",
                 "phanybar"
             ],
+            "support": {
+                "issues": "https://github.com/2bj/Phanybar/issues",
+                "source": "https://github.com/2bj/Phanybar/tree/master"
+            },
             "time": "2015-03-06T12:14:28+00:00"
         },
         {
@@ -5646,16 +5683,16 @@
         },
         {
             "name": "codedungeon/php-cli-colors",
-            "version": "1.11.0",
+            "version": "1.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mikeerickson/php-cli-colors.git",
-                "reference": "9f60ac692cc790755dad47b01c1d607fe5f43b94"
+                "reference": "cb32f427dc4206a8a2b3d14b7c8ad4fb7c884f75"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mikeerickson/php-cli-colors/zipball/9f60ac692cc790755dad47b01c1d607fe5f43b94",
-                "reference": "9f60ac692cc790755dad47b01c1d607fe5f43b94",
+                "url": "https://api.github.com/repos/mikeerickson/php-cli-colors/zipball/cb32f427dc4206a8a2b3d14b7c8ad4fb7c884f75",
+                "reference": "cb32f427dc4206a8a2b3d14b7c8ad4fb7c884f75",
                 "shasum": ""
             },
             "require-dev": {
@@ -5677,7 +5714,7 @@
                     "email": "codedungeon@gmail.com"
                 }
             ],
-            "description": "PHP Package for using color output in CLI commands",
+            "description": "Liven up you PHP Console Apps with standard colors",
             "homepage": "https://github.com/mikeerickson/php-cli-colors",
             "keywords": [
                 "color",
@@ -5686,29 +5723,32 @@
                 "package",
                 "php"
             ],
-            "time": "2019-12-29T22:29:29+00:00"
+            "support": {
+                "issues": "https://github.com/mikeerickson/php-cli-colors/issues",
+                "source": "https://github.com/mikeerickson/php-cli-colors/tree/1.12.0"
+            },
+            "time": "2020-12-03T21:21:36+00:00"
         },
         {
             "name": "codedungeon/phpunit-result-printer",
-            "version": "0.27.0",
+            "version": "0.30.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mikeerickson/phpunit-pretty-result-printer.git",
-                "reference": "b1321647ef3eacfb145fcc9559483b22d0c86cfe"
+                "reference": "a361009eeb7078c1478ba835976f7722a4952870"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mikeerickson/phpunit-pretty-result-printer/zipball/b1321647ef3eacfb145fcc9559483b22d0c86cfe",
-                "reference": "b1321647ef3eacfb145fcc9559483b22d0c86cfe",
+                "url": "https://api.github.com/repos/mikeerickson/phpunit-pretty-result-printer/zipball/a361009eeb7078c1478ba835976f7722a4952870",
+                "reference": "a361009eeb7078c1478ba835976f7722a4952870",
                 "shasum": ""
             },
             "require": {
                 "2bj/phanybar": "^1.0",
                 "codedungeon/php-cli-colors": "^1.10.2",
-                "hassankhan/config": "^0.11.2",
-                "php": "^7.1",
-                "phpunit/phpunit": "^8.0|^9.0",
-                "symfony/yaml": "^2.7|^3.0|^4.0"
+                "hassankhan/config": "^0.11.2|^1.0|^2.0",
+                "php": "^7.1 | ^8.0",
+                "symfony/yaml": "^2.7|^3.0|^4.0|^5.0"
             },
             "require-dev": {
                 "spatie/phpunit-watcher": "^1.6"
@@ -5739,7 +5779,11 @@
                 "result-printer",
                 "testing"
             ],
-            "time": "2020-02-29T21:59:20+00:00"
+            "support": {
+                "issues": "https://github.com/mikeerickson/phpunit-pretty-result-printer/issues",
+                "source": "https://github.com/mikeerickson/phpunit-pretty-result-printer/tree/0.30.1"
+            },
+            "time": "2020-12-24T20:19:03+00:00"
         },
         {
             "name": "composer/ca-bundle",
@@ -6398,28 +6442,29 @@
         },
         {
             "name": "hassankhan/config",
-            "version": "0.11.2",
+            "version": "2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hassankhan/config.git",
-                "reference": "7fbc236c32dc6cc53a7b00992a2739cf8b41c085"
+                "reference": "62b0fd17540136efa94ab6b39f04044c6dc5e4a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hassankhan/config/zipball/7fbc236c32dc6cc53a7b00992a2739cf8b41c085",
-                "reference": "7fbc236c32dc6cc53a7b00992a2739cf8b41c085",
+                "url": "https://api.github.com/repos/hassankhan/config/zipball/62b0fd17540136efa94ab6b39f04044c6dc5e4a7",
+                "reference": "62b0fd17540136efa94ab6b39f04044c6dc5e4a7",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.0"
+                "php": ">=5.5.9"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.0",
+                "phpunit/phpunit": "~4.8.36 || ~5.7 || ~6.5 || ~7.5",
                 "scrutinizer/ocular": "~1.1",
-                "squizlabs/php_codesniffer": "~2.2"
+                "squizlabs/php_codesniffer": "~2.2",
+                "symfony/yaml": "~3.4"
             },
             "suggest": {
-                "symfony/yaml": "~2.5"
+                "symfony/yaml": "~3.4"
             },
             "type": "library",
             "autoload": {
@@ -6451,7 +6496,11 @@
                 "yaml",
                 "yml"
             ],
-            "time": "2017-11-07T22:49:43+00:00"
+            "support": {
+                "issues": "https://github.com/hassankhan/config/issues",
+                "source": "https://github.com/hassankhan/config/tree/2.2.0"
+            },
+            "time": "2020-12-07T16:04:15+00:00"
         },
         {
             "name": "justinrainbow/json-schema",
@@ -8248,5 +8297,6 @@
     "platform": {
         "php": ">=7.1.3"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
 }
